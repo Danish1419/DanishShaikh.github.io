@@ -1,0 +1,347 @@
+* { 
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body {background-image: url(./domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.adv {
+    text-decoration: none;
+}
+.logo {
+     color: black;
+     font-size: 40px;
+     letter-spacing: 1px;
+     cursor: pointer;
+     text-decoration: none;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+nav ul  li a:hover{
+    color: red;
+    transition: .4s;
+
+}
+
+.content{
+    color: black;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+
+h1{
+    margin 20px 0px 20px;
+    font-size: 75;
+} 
+h3{
+    font-size: 25px;
+    margin-bottom: 20px; ;
+}
+h4{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+} 
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 40px 14px 15px;
+    border-radius: 20px;
+    outline: yellow;
+    border: 2px solid yellow;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 28) ;
+    color: black;
+    box-shadow: 0px 0px 5px black, 0px 0px #858585;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    margin-top: 15%;
+}
+.about img{
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin-top: 0%;
+    margin-left: 80px; 
+    border: 5px solid blue; 
+    border-radius: 50%;
+}
+.about-text{
+    width: 800px;
+    letter-spacing: 1px;
+}
+.main{
+    width: 1130px;
+    max-width: 90%;
+    margin: left;
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.about-text h2{
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    
+}
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize; 
+    fon; 
+}
+.about-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: black;
+   
+}
+button{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    border: 2px solid transparent;
+    
+ }
+ button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+ }
+ .title h2{
+    font-size: 45px;
+    margin-left: 30px;
+    text-align: left;
+    margin-top: 8%;
+ }
+ 
+ .title h4{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+ }
+ .title p{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+ }
+ .education h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+ }
+ .education{
+    
+    height: 100px;
+    padding: 0;
+    margin: 0;
+ }
+ .container {
+   width: -10px;
+   margin: 0 auto;   
+   
+ }
+ .left-col, .right-col, .center-col {
+    width: 280px;
+    float: left;
+    margin: 30px;
+    font-size: 20px;
+    text-align: left;
+    
+    
+ }
+ 
+ .skills{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 22px;
+ }
+ .certifications{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+ }
+ .achievements{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+ }
+ .skills h1 {
+    font-size: 50px;
+ }
+ .certifications h1{
+    font-size: 50px;
+ }
+ .achievements h1{
+    font-size: 45px;
+ }
+
+ .aac h1{
+    font-size: 50px;
+    text-align: center;
+ }
+ .gallery {
+    margin: 65px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .footer-bottom{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+
+  }
+  .title img{
+    margin-left: 30px;
+    
+  }
+  @media only screen and (max-width: 1024px) {
+	body {margin: 0;}
+    
+    .content{margin-top: 2%;}
+    .main h2{ font-size: 220%;}
+    .main h5{font-size: 100%;}
+    .main p{font-size: 80%;}
+    .education h1{font-size: 250%;}
+    .left-col, .right-col, .center-col{margin-top: 1%;}
+    .left-col, .right-col, .center-col{width: 150px;}
+    img {
+        display: inline-block;
+        margin: 25px 30px;
+    } 
+    .skills h1{font-size: 250%;}
+    .certifications h1{font-size: 250%;}
+    .achievements h1{font-size: 200%;}
+    .aac h1{font-size: 250%;}
+    .achievements ul li{font-size: 180%;}
+    .skills ul li{font-size: 190%;}
+    .certifications ul li{font-size: 300%;}
+    .gallery img {
+        display: inline-block;
+        margin: 20px 5px;
+    }  
+	#wrapper { width: auto; }                                                              
+	main { margin-left: 0; }
+	nav { float: none; 
+          width: auto; }
+	nav li { display: inline-block; 
+               padding: 0.5em; }
+	nav ul { text-align: center; }
+	nav a { border-style: none; }
+	h1, h2 { font-size: 120%; }
+	p { font-size: 90%; }
+}
+
+@media only screen and (max-width: 768px) {
+	h1, h2, h3, h4, h5 { font-size: 100%; }
+    .title p{ font-size: 100%;}
+    .title h2{ font-size: 200%;}
+    .title h4{font-size: 100%;}
+    .main h2{ font-size: 200%;}
+    .main h5{font-size: 100%;}
+    .main p{font-size: 80%;}
+    .main {margin-left: -30px;}
+    .content{margin-top: -18%;}
+    img {
+        display: inline-block;
+        margin: 25px 30px;
+    }  
+    .education h1{font-size: 200%;}
+    .left-col, .right-col, .center-col{margin-top: -10%;}
+    .left-col, .right-col, .center-col{width: 100px;}
+    .skills h1{font-size: 180%;}
+    .certifications h1{font-size: 180%;}
+    .achievements h1{font-size: 180%;}
+    .aac h1{font-size: 200%;}
+    .skills ul li{font-size: 100%;}
+	span { font-size: 80%; } 
+  	figure { display: none;}
+ 	nav, nav ul, nav li { padding: 0; }
+ 	nav li { display: block; }
+    nav a { display: block; 
+      	padding: 0.5em 0;
+        border-bottom: 2px ridge}
+    }
+    .achievements ul li{font-size: 77%;}
+    .skills ul li{font-size: 90%;}
+    .certifications ul li{font-size: 90%;}
+    .gallery img {
+        display: inline-block;
+        margin: 10px 1px;
+    }  
